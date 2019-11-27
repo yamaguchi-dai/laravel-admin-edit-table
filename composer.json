@@ -1,0 +1,22 @@
+{
+    "name": "yamaguchi-dai/laravel-admin-edit-table",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "yamaguchi dai",
+            "email": "yamaguchi.dai31@gmail.com"
+        }
+    ],
+    "require": {
+        "encore/laravel-admin": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EditTable\\": "src/"
+        }
+    }
+
+}
