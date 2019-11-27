@@ -17,6 +17,14 @@
         "psr-4": {
             "EditTable\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EditTable\\EditTableServiceProvider"
+            ]
+        }
     }
 
 }
